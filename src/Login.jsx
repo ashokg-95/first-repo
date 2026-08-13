@@ -24,6 +24,7 @@ export default function Login({ onLogin }){
           Username
           <input value={username} onChange={(e)=>setUsername(e.target.value)} />
         </label>
+        <p>thus the test case is for the git hub integration  </p>
         <label>
           Password
           <input type="password" value={password} onChange={(e)=>setPassword(e.target.value)} />

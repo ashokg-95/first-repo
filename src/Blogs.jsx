@@ -1,7 +1,7 @@
 import React from 'react'
 
 const posts = [
-  {id:1, title:'Welcome', body:'This is a simple blog post.'},
+  {id:1, title:'Welcome so i am just testing for the git hub', body:'This is a simple blog post.'},
   {id:2, title:'About', body:'Some info about this demo.'},
 ]
 
@@ -11,7 +11,7 @@ export default function Blogs({ user, onLogout }){
       <header style={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
         <h2>Blogs</h2>
         <div>
-          <span style={{marginRight:8}}>Signed in as {user.name}</span>
+          <span style={{marginRight:8}}>Signed in as hbhfnjdv adhdbhkvdfkv usbvdfv ubvdfhkvbhfdv fbvhdfvbdfhv bvdfvbdfhv kjdfvnhkdfvdfv  {user.name}</span>
           <button onClick={onLogout}>Logout</button>
         </div>
       </header>
